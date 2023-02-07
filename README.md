@@ -12,10 +12,10 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 Desktop Design:
-![Desktop](./images/image-product-desktop.jpg)
+![Desktop](./design/desktop-design.jpg)
 
 Mobile Design:
-![Mobile](./images/image-product-mobile.jpg)
+![Mobile](./design/mobile-design.jpg)
 
 ### Screenshots
 
@@ -31,7 +31,7 @@ Mobile Screenshot
 ### Links
 
 - Solution URL: [Código no GitHub](https://github.com/ovitorsaf/product-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site Here](https://ovitorsaf.github.io/product-preview-card-component/)
 
 ### Built with
 
