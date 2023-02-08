@@ -79,18 +79,19 @@ h1{
     margin-bottom: 20px;
     border-radius: 10px;
     border: 0;
+    cursor: pointer;
 }
 
-.btnCart[data-icon="shopping-cart"]::before{
+.btnCart:hover, :focus{
+    background-color: hsl(158, 36%, 20%);
+    border: 0;
+}
+
+.btnCart[data-icon="shoping-cart"]::before {
     content: "";
     background-image: url("/images/icon-cart.svg");
     width: 15px;
     height: 16px;
-}
-
-.btnCart:is(:hover, :focus){
-    background-color: hsl(212, 21%, 14%);
-    cursor: pointer;
 }
 
 .attribution { 
