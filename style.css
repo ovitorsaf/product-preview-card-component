@@ -10,6 +10,7 @@
 
 p { 
     font-size: 14px;
+    line-height: 1.3rem;
     color: hsl(228, 12%, 48%);
 }
 
@@ -48,7 +49,7 @@ h1{
 
 .right{
     width: 50%;
-    padding: 40px;
+    padding: 35px;
 }
 
 .priceBox{
@@ -68,6 +69,10 @@ h1{
     color: white;
     background-color: hsl(158, 36%, 37%);
     width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: .75rem;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-top: 20px;
@@ -76,7 +81,14 @@ h1{
     border: 0;
 }
 
-.btnCart:hover{
+.btnCart[data-icon="shopping-cart"]::before{
+    content: "";
+    background-image: url("/images/icon-cart.svg");
+    width: 15px;
+    height: 16px;
+}
+
+.btnCart:is(:hover, :focus){
     background-color: hsl(212, 21%, 14%);
     cursor: pointer;
 }
@@ -107,6 +119,7 @@ h1{
 
     .right{
         width: 100%;
+        padding: 20px;
     }
 
     h1{
